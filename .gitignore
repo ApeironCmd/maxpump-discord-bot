@@ -1,0 +1,43 @@
+# Зависимости
+node_modules/
+package-lock.json
+
+# Файлы окружения
+.env
+.env.local
+.env.production
+
+# Данные бота (токены, ID каналов)
+data/
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Скомпилированные файлы
+dist/
+build/
+*.js.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+
+# Токены и секреты
+*.key
+*.pem
+credentials.json
